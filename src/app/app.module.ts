@@ -3,16 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { CadastroComponent } from './cadastro/cadastro.component';
+import { CadastroComponent } from './cliente/cadastro/cadastro.component';
 import { routes } from './app.routes';
 
 @NgModule({
-  declarations: [
-    CadastroComponent
-  ],
+  declarations: [],
   imports: [
     BrowserModule,
     AppComponent,
+    CadastroComponent,
     RouterModule.forRoot(routes)
   ],
   providers: []
